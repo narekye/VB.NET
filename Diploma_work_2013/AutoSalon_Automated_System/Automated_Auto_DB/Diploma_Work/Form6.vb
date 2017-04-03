@@ -4,7 +4,7 @@ Public Class Form6
     Dim con As New OleDbConnection
 
     Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles Button1.Click
-        If MessageBox.Show("Ցանկանում եք հեռացնել տվյալ տողը?", "Ջնջել", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) = DialogResult.Yes Then
+        If MessageBox.Show("Did you want to delete this record", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) = DialogResult.Yes Then
             Dim dt As New DataTable
             Dim ds As New DataSet
             Dim da As New OleDbDataAdapter
@@ -15,7 +15,7 @@ Public Class Form6
             Form2.DataGridView1.DataSource = dt.DefaultView
             con.Close()
         Else
-            MsgBox("Գործողությունը կասեցված է։")
+            MsgBox("Operation canceled.")
 
         End If
     End Sub

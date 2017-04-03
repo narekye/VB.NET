@@ -9,13 +9,13 @@
             addclient.Show()
             Me.Hide()
         Else
-            MsgBox("Մուտքագրված ինֆորմացիան սխալ է", MsgBoxStyle.Critical)
+            MsgBox("Inputed info is incorrect", MsgBoxStyle.Critical)
         End If
     End Sub
 
     Private Sub LinkLabel1_LinkClicked(sender As System.Object, e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
 
-        MsgBox("Ավտոսալոն ՓԲԸ, Ստեղծված է բոլոր մակնիշի մեքենաների տեխսպասարկման համար, պատրաստված է ՀԱՊՀ քոլեջի ուսանող Եգորյան Նարեկի կողմից։", MsgBoxStyle.OkOnly)
+        MsgBox("AutoSalon automated system", MsgBoxStyle.OkOnly)
 
     End Sub
 

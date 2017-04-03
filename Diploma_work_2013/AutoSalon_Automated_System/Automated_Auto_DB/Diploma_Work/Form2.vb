@@ -12,7 +12,7 @@ Public Class Form2
         con.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\Database1.accdb"
     End Sub
     Private Sub DsadToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles DsadToolStripMenuItem.Click
-        MsgBox("Ավտոսալոն ՓԲԸ, Ստեղծված է բոլոր մակնիշի մեքենաների տեխսպասարկման համար, պատրաստված է ՀԱՊՀ քոլեջի ուսանող Եգորյան Նարեկի կողմից։", MsgBoxStyle.OkOnly)
+        MsgBox("AutoSalon automated system", MsgBoxStyle.OkOnly)
     End Sub
 
     Private Sub DasdsToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles DasdsToolStripMenuItem.Click

@@ -42,14 +42,12 @@ Public Class Form3
 
     Private Sub Form3_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         Me.CenterToParent()
-
-
         con.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\Database1.accdb"
     End Sub
 
     Private Sub Button1_Click_1(sender As System.Object, e As System.EventArgs) Handles Button1.Click
 
-        If MessageBox.Show("Ցանկանում եք հեռացնել տվյալ տողը?", "Ջնջել", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) = DialogResult.Yes Then
+        If MessageBox.Show("Did you want to delete this record", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) = DialogResult.Yes Then
             Dim dt As New DataTable
             Dim ds As New DataSet
             Dim da As New OleDbDataAdapter
@@ -61,7 +59,7 @@ Public Class Form3
 
             con.Close()
         Else
-            MsgBox("Գործողությունը կասեցված է։")
+            MsgBox("Operation canceled")
 
         End If
     End Sub
