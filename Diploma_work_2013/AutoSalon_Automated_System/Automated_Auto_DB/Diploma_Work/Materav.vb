@@ -15,12 +15,8 @@ Public Class Materav
         Form2.DataGridView1.DataSource = dt.DefaultView
         con.Close()
     End Sub
-
-
     Private Sub Button2_Click(sender As System.Object, e As System.EventArgs) Handles Button2.Click
         Me.Close()
         Form2.Show()
     End Sub
-
-
 End Class

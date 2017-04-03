@@ -8,8 +8,6 @@
     End Sub
 
     Private Sub Form3_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
-        'TODO: данная строка кода позволяет загрузить данные в таблицу "DatabaseDataSet.Auto_Parts". При необходимости она может быть перемещена или удалена.
         Me.Auto_PartsTableAdapter.Fill(Me.DatabaseDataSet.Auto_Parts)
-
     End Sub
 End Class
