@@ -48,7 +48,7 @@ Partial Class addclient
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(113, 42)
         Me.Button1.TabIndex = 1
-        Me.Button1.Text = "Ավելացնել հաճախորդ"
+        Me.Button1.Text = "Add client"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'TextBox1
@@ -93,7 +93,7 @@ Partial Class addclient
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(38, 13)
         Me.Label1.TabIndex = 7
-        Me.Label1.Text = "Անուն"
+        Me.Label1.Text = "Name"
         '
         'Label2
         '
@@ -102,7 +102,7 @@ Partial Class addclient
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(60, 13)
         Me.Label2.TabIndex = 8
-        Me.Label2.Text = "Ազգանուն"
+        Me.Label2.Text = "Surname"
         '
         'Label3
         '
@@ -111,7 +111,7 @@ Partial Class addclient
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(41, 13)
         Me.Label3.TabIndex = 9
-        Me.Label3.Text = "Հասցե"
+        Me.Label3.Text = "Address"
         '
         'Label4
         '
@@ -120,7 +120,7 @@ Partial Class addclient
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(56, 13)
         Me.Label4.TabIndex = 10
-        Me.Label4.Text = "Հեռախոս"
+        Me.Label4.Text = "Phone"
         '
         'Label5
         '
@@ -129,7 +129,7 @@ Partial Class addclient
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(76, 13)
         Me.Label5.TabIndex = 11
-        Me.Label5.Text = "Գր․ ամսաթիվ"
+        Me.Label5.Text = "Bind day"
         '
         'GroupBox1
         '
@@ -152,7 +152,7 @@ Partial Class addclient
         Me.GroupBox1.Size = New System.Drawing.Size(217, 229)
         Me.GroupBox1.TabIndex = 12
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Գործողություն"
+        Me.GroupBox1.Text = "Operation"
         '
         'Label6
         '
@@ -172,7 +172,7 @@ Partial Class addclient
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(98, 16)
         Me.Label7.TabIndex = 15
-        Me.Label7.Text = "Ընթացիկ ժամ։"
+        Me.Label7.Text = "TIme now:"
         '
         'Button2
         '
@@ -180,7 +180,7 @@ Partial Class addclient
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(194, 23)
         Me.Button2.TabIndex = 13
-        Me.Button2.Text = "<< Ետ"
+        Me.Button2.Text = "<< Back"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Timer1
@@ -199,7 +199,7 @@ Partial Class addclient
         Me.MinimizeBox = False
         Me.Name = "addclient"
         Me.ShowIcon = False
-        Me.Text = "Ավելացնել Հաճախորդ"
+        Me.Text = "Add client"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
