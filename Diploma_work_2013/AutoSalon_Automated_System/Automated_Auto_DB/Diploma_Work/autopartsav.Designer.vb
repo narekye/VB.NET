@@ -1,9 +1,7 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class autopartsav
     Inherits System.Windows.Forms.Form
-
-    'Форма переопределяет dispose для очистки списка компонентов.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -13,13 +11,7 @@ Partial Class autopartsav
             MyBase.Dispose(disposing)
         End Try
     End Sub
-
-    'Является обязательной для конструктора форм Windows Forms
     Private components As System.ComponentModel.IContainer
-
-    'Примечание: следующая процедура является обязательной для конструктора форм Windows Forms
-    'Для ее изменения используйте конструктор форм Windows Form.  
-    'Не изменяйте ее в редакторе исходного кода.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
@@ -77,7 +69,7 @@ Partial Class autopartsav
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(142, 23)
         Me.Button1.TabIndex = 5
-        Me.Button1.Text = "Ավելացնել"
+        Me.Button1.Text = "Add"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Label1
@@ -87,7 +79,7 @@ Partial Class autopartsav
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(38, 13)
         Me.Label1.TabIndex = 6
-        Me.Label1.Text = "Անուն"
+        Me.Label1.Text = "Name"
         '
         'Label2
         '
@@ -96,7 +88,7 @@ Partial Class autopartsav
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(44, 13)
         Me.Label2.TabIndex = 7
-        Me.Label2.Text = "Համար"
+        Me.Label2.Text = "Number"
         '
         'Label3
         '
@@ -114,7 +106,7 @@ Partial Class autopartsav
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(27, 13)
         Me.Label4.TabIndex = 9
-        Me.Label4.Text = "Գին"
+        Me.Label4.Text = "Price"
         '
         'Label5
         '
@@ -123,7 +115,7 @@ Partial Class autopartsav
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(55, 13)
         Me.Label5.TabIndex = 10
-        Me.Label5.Text = "Մնացորդ"
+        Me.Label5.Text = "Module"
         '
         'Button2
         '
@@ -131,7 +123,7 @@ Partial Class autopartsav
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 11
-        Me.Button2.Text = "<<Ետ" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Button2.Text = "<< Back" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         Me.Button2.UseVisualStyleBackColor = True
         '
         'autopartsav
@@ -155,7 +147,7 @@ Partial Class autopartsav
         Me.MinimizeBox = False
         Me.Name = "autopartsav"
         Me.ShowIcon = False
-        Me.Text = "Ավելացնել Պահեստամաս"
+        Me.Text = "Add part"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
