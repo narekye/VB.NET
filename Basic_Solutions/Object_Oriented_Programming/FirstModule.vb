@@ -20,6 +20,8 @@
         Dim book As New Book("John", 23)
         Console.WriteLine(book.Age)
         Console.WriteLine(book.Name)
+
+
         Console.ReadLine()
     End Sub
 
