@@ -1,6 +1,6 @@
 # Visual Basic `15` on .NET framework `4.7` with Visual Studio `2017` Release Candidate edition.
 <img src="https://github.com/narekye/Visual_Basic_Projects/blob/master/VB.png" align="right" width="150px" height="150px" /> 
-
+ 
 ## Some information 
 Visual Basic is a third-generation event-driven programming language and integrated development environment (IDE) from Microsoft for its Component Object Model (COM) programming model first released in 1991 and declared legacy during 2008. Microsoft intended Visual Basic to be relatively easy to learn and use.[1][2] Visual Basic was derived from BASIC, a user-friendly programming language designed for beginners, and it enables the rapid application development (RAD) of graphical user interface (GUI) applications, access to databases using Data Access Objects, Remote Data Objects, or ActiveX Data Objects, and creation of ActiveX controls and objects.
 
